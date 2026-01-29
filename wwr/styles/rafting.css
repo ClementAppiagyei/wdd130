@@ -74,13 +74,14 @@ h1 {
     float: right;
     width: 125px;
     margin-top: -3.5px;
+    margin-left: 10px;
 }
 
 article {
     margin-top: -150px;
     right: 5px;
     position: absolute;
-    width: 95%;
+    width: 97%;
     clear: both;
     opacity: 0.93;
     background-color: #e9c46a;
