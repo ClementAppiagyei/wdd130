@@ -166,28 +166,16 @@ ul li a {
 } */
 
 footer {
-    /* light purple like the frame */
-
+    display: flex;
+    gap: 16px;
     padding: 20px 150px;
-    font-family: Arial, sans-serif;
-}
-
-footer {
+    font-family: var(--body-font);
     max-width: 1200px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
-}
-
-footer {
     font-size: 14px;
     color: #000;
-    margin: 0;
-}
-
-footer {
-    display: flex;
-    gap: 16px;
 }
 
 footer a {
