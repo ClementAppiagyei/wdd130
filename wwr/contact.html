@@ -10,27 +10,27 @@
     <title>Contact Us | Whitewater Rafting Company</title>
 
     <!-- REQUIRED CSS FILE -->
-    <link rel="stylesheet" href="styles/me.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css" rel="stylesheet">
 </head>
 
 <body>
-
+    <!-- Header of the page. This part contains the nav, logo and many more. -->
     <header>
-        <img src="images/z-splash.png" alt="Whitewater Rafting Company logo" width="100">
-
+        <img src="./images/z-splash.png" alt="logo of the rafting Company" width="100">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="trips.html">Trips</a>
+                    <a href="contact.html">Contact Us</a>
+                </li>
             </ul>
         </nav>
     </header>
-
     <main>
         <section class="page-head">
-            <h1>Contact Whitewater Rafting Company</h1>
+            <h1 id="headline-text">Contact Whitewater Rafting Company</h1>
             <p>
                 123 Main River Street<br>
                 Kolob, California<br>
@@ -58,11 +58,24 @@
                 <input type="email" id="email" name="email" required>
 
                 <label for="purpose">Message Purpose</label>
-                <select id="purpose" name="purpose">
-                    <option value="general">General Inquiry</option>
-                    <option value="reservation">Reservation Question</option>
-                    <option value="feedback">Website Suggestion</option>
-                </select>
+                <div id="purpose" name="purpose">
+
+                    <label>
+                        <input type="radio" value="general" name="purpose">
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" value="reservation" name="purpose">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" value="feedback" name="purpose">
+                        Website Suggestion
+                    </label>
+
+                </div>
 
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
@@ -80,25 +93,29 @@
         <section>
             <h2>We Are Here to Serve You</h2>
 
-            <div class="service">
+            <div id="service">
                 <figure>
-                    <img src="images/rafting19_600.jpg" alt="Rafting guide assisting guests">
+                    <img src="images/rafting19_600.jpg" alt="Rafting guide assisting guests"
+                      width="200">
                     <figcaption>Expert Guides</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/rafting20_600.jpg" alt="Group rafting experience">
+                    <img src="images/rafting20_600.jpg" alt="Group rafting experience" width="200">
                     <figcaption>Group Adventures</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/rafting26_600.jpg" alt="Rafting safety preparation">
+                    <img src="images/rafting26_600.jpg" alt="Rafting safety preparation"
+                      width="200">
                     <figcaption>Safety First</figcaption>
                 </figure>
             </div>
         </section>
     </main>
 
+    <!-- Footer of the page -->
+    <hr>
     <footer>
         <nav class="socialmedia">
             <a href="https://instagram.com">
