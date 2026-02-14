@@ -44,12 +44,12 @@
             <!-- GOOGLE MAP (NO INLINE STYLES) -->
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d508215.9593604274!2d-0.22064059277342896!3d5.649716637603496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1771082183775!5m2!1sen!2sgh"
-              width="500" height="450" style="border:0;" allowfullscreen loading="lazy"
+              width="500" height="450" allowfullscreen loading="lazy"
               referrerpolicy="no-referrer-when-downgrade" title="Google Map">
             </iframe>
 
             <!-- CONTACT FORM -->
-            <form action="#" method="post">
+            <form action="#" method="post" id="contact-form">
 
                 <label for="fullname">Full Name</label>
                 <input type="text" id="fullname" name="fullname" required>
@@ -61,17 +61,17 @@
                 <div id="purpose" name="purpose">
 
                     <label>
-                        <input type="radio" value="general" name="purpose">
+                        <input [type="radio" ] value="general" name="purpose">
                         General Inquiry
                     </label>
 
                     <label>
-                        <input type="radio" value="reservation" name="purpose">
+                        <input [type="radio" ] value="reservation" name="purpose">
                         Reservation Question
                     </label>
 
                     <label>
-                        <input type="radio" value="feedback" name="purpose">
+                        <input [type="radio" ] value="feedback" name="purpose">
                         Website Suggestion
                     </label>
 

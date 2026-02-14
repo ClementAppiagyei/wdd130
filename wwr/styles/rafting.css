@@ -150,6 +150,10 @@ ul li a {
     display: flex;
 }
 
+iframe {
+    border: 0;
+}
+
 form {
     padding: 30px;
 }
