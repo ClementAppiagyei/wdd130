@@ -10,7 +10,7 @@
     <title>Contact Us | Whitewater Rafting Company</title>
 
     <!-- REQUIRED CSS FILE -->
-    <link rel="stylesheet" href="styles/rafting.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
             </p>
         </section>
 
-        <section class="contact-section">
+        <div class="contact-section">
 
             <!-- GOOGLE MAP (NO INLINE STYLES) -->
             <iframe
@@ -57,8 +57,8 @@
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="purpose">Message Purpose</label>
-                <div id="purpose" name="purpose">
+                <label for="Message">Message Purpose</label>
+                <div id="purpose">
 
                     <label>
                         <input type="radio" value="general" name="purpose" id="circle">
@@ -66,12 +66,12 @@
                     </label>
 
                     <label>
-                        <input type="radio" value="reservation" name="purpose" id="circle">
+                        <input type="radio" value="reservation" name="purpose" id="shape">
                         Reservation Question
                     </label>
 
                     <label>
-                        <input type="radio" value="feedback" name="purpose" id="circle">
+                        <input type="radio" value="feedback" name="purpose" id="square">
                         Website Suggestion
                     </label>
 
@@ -87,7 +87,7 @@
 
                 <button type="submit">Get in Touch</button>
             </form>
-        </section>
+        </div>
 
         <!-- EMPLOYEE / SERVICE IMAGES -->
         <section>
